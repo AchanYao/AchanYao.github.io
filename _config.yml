@@ -60,8 +60,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 3f3062c6aa542b080bee                            #生成的clientID
-  clientSecret: ab7a9b446bc3e50da3b06a1ec90b704905a3032b    #生成的clientSecret
+  clientID: acc251aee5ead0df11a5                            #生成的clientID
+  clientSecret: e28043e98f64d5cf00d5a821e7a3923d405a8a23    #生成的clientSecret
   repo: AchanYao.github.io    #仓库名称
   owner: AchanYao    #github用户名
   admin: AchanYao
