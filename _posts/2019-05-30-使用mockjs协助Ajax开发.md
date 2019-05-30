@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      使用mockjs进行前端请求开发
+title:      使用mockjs进行Ajax请求开发
 subtitle:   手把手教你使用mockjs
 date:       2019-05-30
 author:     AchanYao
@@ -107,7 +107,7 @@ function mockGetAllBooks()
     // books[i].author 是个长度1-3的随机数组，表示作者
 }
 
-// 配置Mock.js拦截，必须配置，不然控制台Mock会拦截不到，控制台会报错
+// 配置Mock.js拦截，必须配置，不然Mock.js会拦截不到，控制台会报错
 Mock.mock('/get_all_books', mockGetAllBooks());
 // 第一个参数指要拦截的请求，第二个参数表示处理该请求的方法。
 ```
