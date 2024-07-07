@@ -19,7 +19,6 @@ RSS: false
 # weibo_username:     qiubaiying
 zhihu_username: achan-11
 github_username: AchanYao
-twitter_username: RSfTaknFAfiTMXS
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
